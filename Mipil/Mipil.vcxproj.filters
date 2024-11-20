@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="0. Configuration">
+      <UniqueIdentifier>{d71e5c2c-f3f0-485b-b284-25a1b8838f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Core">
+      <UniqueIdentifier>{770f9644-291d-4005-8708-04b17bea6cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World">
+      <UniqueIdentifier>{77422222-c30a-416d-8d02-27710779d36c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object">
+      <UniqueIdentifier>{774a0ed4-4a62-4f59-aa32-ab98a64d3007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM">
+      <UniqueIdentifier>{8ac5a466-49ee-47d1-912d-9c98fe9190cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Utill">
+      <UniqueIdentifier>{ca53bf32-f012-4ac6-81f1-8819f086ba6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6. Manager">
+      <UniqueIdentifier>{e79f94e1-cd62-4e14-9a65-c3d5eb462c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Utill\YAMLParser">
+      <UniqueIdentifier>{2fb290e5-2318-4060-8287-601d5e5dabc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Utill\BlockGenerator">
+      <UniqueIdentifier>{5c439d95-aa65-4d97-8f90-feed118b5bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\CubeMap">
+      <UniqueIdentifier>{df3950b2-eceb-4801-9c55-c96b008d83cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\Player">
+      <UniqueIdentifier>{fa733cb2-f6b6-4de9-ac99-206b8a5fc9dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\Block">
+      <UniqueIdentifier>{10e1f4c2-cfc2-4206-b633-4c00081ff8ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Transition">
+      <UniqueIdentifier>{a62eaba5-7460-4b26-ad69-f65f2bd2baf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\State">
+      <UniqueIdentifier>{1dc50daf-f2c9-418d-964e-c8494a9f0746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7. Controller">
+      <UniqueIdentifier>{70bb0434-85de-46e0-8747-9635f369c44d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8. CollisionHandler">
+      <UniqueIdentifier>{fad01a7a-2242-4ab9-b0b5-d0a591121426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7. Controller\PlayerTestController">
+      <UniqueIdentifier>{884ffd2b-8d80-4f22-bc9e-88d5badddc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8. CollisionHandler\TestCollisionHandler">
+      <UniqueIdentifier>{e39d4edd-0ca7-43df-9ab9-a186720cc640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9. Component">
+      <UniqueIdentifier>{355834e2-6467-495a-bbcb-512994ca07f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8. CollisionHandler\OnGridCollisionHandler">
+      <UniqueIdentifier>{188cb42d-c951-41df-b19d-2e564f0e2d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\ShockParticleObjcect">
+      <UniqueIdentifier>{4771f197-4c3d-4e1d-9d97-19f15c4baf00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\Map">
+      <UniqueIdentifier>{567785cb-ba8b-4a46-b566-d22e9cd35b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\Part">
+      <UniqueIdentifier>{7f2c054d-0468-40ec-b071-8fd314b4a1f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Utill\PartGenerator">
+      <UniqueIdentifier>{05773815-92eb-4b46-ab6f-0baae4016c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\Camera">
+      <UniqueIdentifier>{ce12dece-fb27-4dad-9a79-154397d9cc74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\Camera\FPSCamera">
+      <UniqueIdentifier>{679d079a-9f55-4c9d-ae91-2e24a9ce1195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\Camera\PlayerCamera">
+      <UniqueIdentifier>{5458fa4a-9249-430d-95e9-a95ddd9955aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7. Controller\PlayerCameraController">
+      <UniqueIdentifier>{8a8f89b1-3a39-45a7-b5b4-d19f6d384980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7. Controller\PlayerMovementContorller">
+      <UniqueIdentifier>{5cf8081d-04d3-4300-86b7-6907c125f024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\Particle">
+      <UniqueIdentifier>{b63ad409-1873-4a18-890a-ef51fe2e8671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\Particle\ShockParticleObjcect">
+      <UniqueIdentifier>{4771f197-4c3d-4e1d-9d97-19f15c4baf00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\Particle\FireParticleObject">
+      <UniqueIdentifier>{08a82b21-c90f-4726-b80b-849a831454b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World\MainWorld">
+      <UniqueIdentifier>{7021c7cc-2fae-4ed1-9d29-96bd6fc0cb4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World\PuzzleWorlds">
+      <UniqueIdentifier>{ee28aeac-6b8e-4cd6-8be1-cbee396ad706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World\PuzzleWorlds\Stage1">
+      <UniqueIdentifier>{867b66ab-1f7a-4725-80a7-d9a0e7021822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World\PuzzleWorlds\Stage2">
+      <UniqueIdentifier>{931d8b69-0153-4f7c-906d-e51083eb8e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World\PuzzleWorlds\Stage3">
+      <UniqueIdentifier>{6fd2a45e-d263-4106-b5c8-f63001aeb44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World\PuzzleWorlds\Stage4">
+      <UniqueIdentifier>{86ab01f8-12e8-4155-a3f3-c876389e2e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World\PuzzleWorlds\Stage5">
+      <UniqueIdentifier>{a9db354a-f7da-4f97-97ef-7e4a85f92663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World\StartingCutScene">
+      <UniqueIdentifier>{87c3b82c-8fce-4a7e-8fd0-119642b42334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World\StartFreeWorld">
+      <UniqueIdentifier>{314d0751-340e-4da5-a77b-14ffee9ccddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World\GameOverWorld">
+      <UniqueIdentifier>{d5f5577e-9301-47df-a2bc-9b5ee5252181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World\CreditScene">
+      <UniqueIdentifier>{a11150ed-d97b-4e8a-a28a-1d749e9556bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\Particle\GoalParticleObject">
+      <UniqueIdentifier>{4ba9942a-d576-498d-a926-5755f0c1f2fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\Credit">
+      <UniqueIdentifier>{d32d03d8-742c-4a0f-813a-8b9c199e2410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World\EndingCutScene">
+      <UniqueIdentifier>{8209f451-b13a-476d-bff8-5ed397e9b31d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World\EndingFreeWorld">
+      <UniqueIdentifier>{613c5699-283b-425e-9549-d63cb3e7fec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\Planet">
+      <UniqueIdentifier>{0a5e4c2c-3021-4085-83d7-978cc1c934e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\SkeletalFbx">
+      <UniqueIdentifier>{c5d90345-0fc5-42a7-98f5-e46b7d89b1e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\StaticFbx">
+      <UniqueIdentifier>{5ae8e481-612d-4118-aff0-77d7e4ec9a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9. Component\GridMovementComponent">
+      <UniqueIdentifier>{6f462bfe-1276-4821-8988-86433c154f1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9. Component\PointLightComponent">
+      <UniqueIdentifier>{bffc5bec-1174-47e3-88e4-8a329405920f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10. UI">
+      <UniqueIdentifier>{abcaa8c5-951b-42ff-9729-28510e8b45e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10. UI\UIObject">
+      <UniqueIdentifier>{f30ba450-ce8b-48f2-bad9-b2df4736745c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10. UI\UIFunctor">
+      <UniqueIdentifier>{413cec5f-70e7-4065-a6f4-687a0e3565c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8. CollisionHandler\ReadyCollisionHandler">
+      <UniqueIdentifier>{66a93a5d-9b71-4c90-9f5c-e7091986178c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8. CollisionHandler\ClearCollisionHandler">
+      <UniqueIdentifier>{987f1efa-1220-4559-908b-c7d673ea731a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7. Controller\PlayerFreeCameraContorller">
+      <UniqueIdentifier>{a640c081-9502-4e1c-b8fd-1484f99b2808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\Camera\PlayerFreeCamera">
+      <UniqueIdentifier>{767ce91e-e66c-4e57-8b25-5e4fb4b451cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\FloorBlock">
+      <UniqueIdentifier>{1296c633-1aa1-4932-8fd0-ff6ae46e2aef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameApp.h">
+      <Filter>1. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>0. Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>0. Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticTestObject.h">
+      <Filter>3. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockGenerator.h">
+      <Filter>5. Utill\BlockGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMapObject.h">
+      <Filter>3. Object\CubeMap</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockPOD.h">
+      <Filter>5. Utill</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockObject.h">
+      <Filter>3. Object\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="YAMLParser.h" />
+    <ClInclude Include="YAMLParser.h">
+      <Filter>5. Utill\YAMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="GridManager.h">
+      <Filter>6. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTransition.h">
+      <Filter>4. FSM\Transition</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>4. FSM\State</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerObject.h">
+      <Filter>3. Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPlayerController.h">
+      <Filter>7. Controller\PlayerTestController</Filter>
+    </ClInclude>
+    <ClInclude Include="TestCollisionHandler.h">
+      <Filter>8. CollisionHandler\TestCollisionHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFSM.h">
+      <Filter>4. FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="OnGridCollisionHandler.h">
+      <Filter>8. CollisionHandler\OnGridCollisionHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="ShockParticleObjcect.h">
+      <Filter>3. Object\Particle\ShockParticleObjcect</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>3. Object\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFreeObject.h">
+      <Filter>3. Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PartPOD.h">
+      <Filter>5. Utill</Filter>
+    </ClInclude>
+    <ClInclude Include="PartObject.h">
+      <Filter>3. Object\Part</Filter>
+    </ClInclude>
+    <ClInclude Include="PartGenerator.h">
+      <Filter>5. Utill\PartGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSCamera.h">
+      <Filter>3. Object\Camera\FPSCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCamera.h">
+      <Filter>3. Object\Camera\PlayerCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCameraController.h" />
+    <ClInclude Include="FireParticleObject.h">
+      <Filter>3. Object\Particle\FireParticleObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWorld.h">
+      <Filter>2. World\MainWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCameraController.h">
+      <Filter>7. Controller\PlayerCameraController</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMovementContorller.h">
+      <Filter>7. Controller\PlayerMovementContorller</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2World.h">
+      <Filter>2. World\PuzzleWorlds\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1World.h">
+      <Filter>2. World\PuzzleWorlds\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="StartFreeWorld.h">
+      <Filter>2. World\StartFreeWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="StartingCutScene.h">
+      <Filter>2. World\StartingCutScene</Filter>
+    </ClInclude>
+    <ClInclude Include="DivisionMap.h">
+      <Filter>3. Object\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraObject.h">
+      <Filter>3. Object\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="PuzzleWorld.h">
+      <Filter>2. World\PuzzleWorlds</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditScene.h">
+      <Filter>2. World\CreditScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverWorld.h">
+      <Filter>2. World\GameOverWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3World.h">
+      <Filter>2. World\PuzzleWorlds\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage4World.h">
+      <Filter>2. World\PuzzleWorlds\Stage4</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage5World.h">
+      <Filter>2. World\PuzzleWorlds\Stage5</Filter>
+    </ClInclude>
+    <ClInclude Include="GoalParticleObject.h">
+      <Filter>3. Object\Particle\GoalParticleObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditObject.h">
+      <Filter>3. Object\Credit</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingCutScene.h">
+      <Filter>2. World\EndingCutScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingFreeWorld.h">
+      <Filter>2. World\EndingFreeWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanetObject.h">
+      <Filter>3. Object\Planet</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalFbxObject.h">
+      <Filter>3. Object\SkeletalFbx</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticFbxObject.h">
+      <Filter>3. Object\StaticFbx</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLightComponent.h">
+      <Filter>9. Component\PointLightComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="GridMovementComponent.h">
+      <Filter>9. Component\GridMovementComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDynamicObject.h">
+      <Filter>10. UI\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UICameraMove.h">
+      <Filter>10. UI\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMeshTestObject.h">
+      <Filter>10. UI\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UICreditClick.h">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="UIEndGameClick.h">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="UIGameStartClick.h">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="UIGotoMainClickFunctor.h">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="UIGotoMainOkClick.h">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMainWorldButtonHover.h">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="UINoClick.h">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="UIReadyClick.h">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="UIReadyClickPopUpFunctor.h">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="UIRestartClickFunctor.h">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="UITimerFunctor.h">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="UIEndGameOkClick.h">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadyCollisionHandler.h">
+      <Filter>8. CollisionHandler\ReadyCollisionHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearCollisionHandler.h">
+      <Filter>8. CollisionHandler\ClearCollisionHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFreeCameraContorller.h">
+      <Filter>7. Controller\PlayerFreeCameraContorller</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFreeCamera.h">
+      <Filter>3. Object\Camera\PlayerFreeCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="UITutorialPrevClick.h">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="UITutorialExitClick.h">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="UITutorialNextClick.h">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="FloorBlockObject.h">
+      <Filter>3. Object\FloorBlock</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>1. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>0. Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticTestObject.cpp">
+      <Filter>3. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockGenerator.cpp">
+      <Filter>5. Utill\BlockGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMapObject.cpp">
+      <Filter>3. Object\CubeMap</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockObject.cpp">
+      <Filter>3. Object\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="YAMLParser.cpp" />
+    <ClCompile Include="YAMLParser.cpp">
+      <Filter>5. Utill\YAMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="GridManager.cpp">
+      <Filter>6. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFSM.cpp">
+      <Filter>4. FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTransition.cpp">
+      <Filter>4. FSM\Transition</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>4. FSM\State</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerObject.cpp">
+      <Filter>3. Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPlayerController.cpp">
+      <Filter>7. Controller\PlayerTestController</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCollisionHandler.cpp">
+      <Filter>8. CollisionHandler\TestCollisionHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="OnGridCollisionHandler.cpp">
+      <Filter>8. CollisionHandler\OnGridCollisionHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="ShockParticleObjcect.cpp">
+      <Filter>3. Object\Particle\ShockParticleObjcect</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFreeObject.cpp">
+      <Filter>3. Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PartObject.cpp">
+      <Filter>3. Object\Part</Filter>
+    </ClCompile>
+    <ClCompile Include="PartGenerator.cpp">
+      <Filter>5. Utill\PartGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSCamera.cpp">
+      <Filter>3. Object\Camera\FPSCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCamera.cpp">
+      <Filter>3. Object\Camera\PlayerCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCameraController.cpp" />
+    <ClCompile Include="FireParticleObject.cpp">
+      <Filter>3. Object\Particle\FireParticleObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWorld.cpp">
+      <Filter>2. World\MainWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCameraController.cpp">
+      <Filter>7. Controller\PlayerCameraController</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMovementContorller.cpp">
+      <Filter>7. Controller\PlayerMovementContorller</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2World.cpp">
+      <Filter>2. World\PuzzleWorlds\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1World.cpp">
+      <Filter>2. World\PuzzleWorlds\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="StartingCutScene.cpp">
+      <Filter>2. World\StartingCutScene</Filter>
+    </ClCompile>
+    <ClCompile Include="StartFreeWorld.cpp">
+      <Filter>2. World\StartFreeWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>3. Object\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="DivisionMap.cpp">
+      <Filter>3. Object\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraObject.cpp">
+      <Filter>3. Object\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditScene.cpp">
+      <Filter>2. World\CreditScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverWorld.cpp">
+      <Filter>2. World\GameOverWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3World.cpp">
+      <Filter>2. World\PuzzleWorlds\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage4World.cpp">
+      <Filter>2. World\PuzzleWorlds\Stage4</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage5World.cpp">
+      <Filter>2. World\PuzzleWorlds\Stage5</Filter>
+    </ClCompile>
+    <ClCompile Include="PuzzleWorld.cpp">
+      <Filter>2. World</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditObject.cpp">
+      <Filter>3. Object\Credit</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingCutScene.cpp">
+      <Filter>2. World\EndingCutScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingFreeWorld.cpp">
+      <Filter>2. World\EndingFreeWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="GoalParticleObject.cpp">
+      <Filter>3. Object\Particle\GoalParticleObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanetObject.cpp">
+      <Filter>3. Object\Planet</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalFbxObject.cpp">
+      <Filter>3. Object\SkeletalFbx</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticFbxObject.cpp">
+      <Filter>3. Object\StaticFbx</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLightComponent.cpp">
+      <Filter>9. Component\PointLightComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="GridMovementComponent.cpp">
+      <Filter>9. Component\GridMovementComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDynamicObject.cpp">
+      <Filter>10. UI\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UICameraMove.cpp">
+      <Filter>10. UI\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMeshTestObject.cpp">
+      <Filter>10. UI\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UICreditClick.cpp">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="UIEndGameClick.cpp">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="UIGameStartClick.cpp">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="UIGotoMainClickFunctor.cpp">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="UIGotoMainOkClick.cpp">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMainWorldButtonHover.cpp">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="UINoClick.cpp">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="UIReadyClick.cpp">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="UIReadyClickPopUpFunctor.cpp">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="UIRestartClickFunctor.cpp">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="UITimerFunctor.cpp">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="UIEndGameOkClick.cpp">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="PuzzleWorld.cpp">
+      <Filter>2. World\PuzzleWorlds</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadyCollisionHandler.cpp">
+      <Filter>8. CollisionHandler\ReadyCollisionHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearCollisionHandler.cpp">
+      <Filter>8. CollisionHandler\ClearCollisionHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFreeCameraContorller.cpp">
+      <Filter>7. Controller\PlayerFreeCameraContorller</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFreeCamera.cpp">
+      <Filter>3. Object\Camera\PlayerFreeCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="UITutorialExitClick.cpp">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="UITutorialNextClick.cpp">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="UITutorialPrevClick.cpp">
+      <Filter>10. UI\UIFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorBlockObject.cpp">
+      <Filter>3. Object\FloorBlock</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

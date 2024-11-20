@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Shader">
+      <UniqueIdentifier>{0f7db051-f712-4af8-be9a-e768155a2fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. pch">
+      <UniqueIdentifier>{8ad7a8e7-b1e4-42c6-8203-b06c9cd6bb0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager">
+      <UniqueIdentifier>{f4b4337e-6b5b-48fd-b161-69c79c991e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\D3DRendererManager">
+      <UniqueIdentifier>{2ea386bb-4141-4e92-aa49-aee7dbf8e811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\D3DRendererManager\Graphics">
+      <UniqueIdentifier>{da455605-c498-4da3-b1f0-6faf7bd0e52d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\D3DRendererManager\PipeLine">
+      <UniqueIdentifier>{12d4680d-67e3-4481-92da-332bf472a26a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\D3DRendererManager\ImGUIRenderer">
+      <UniqueIdentifier>{416b1a5b-5065-4302-bfc6-7e44df522e93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\ResourceManager">
+      <UniqueIdentifier>{1a964b60-ee43-4e98-83f8-d434f0c2cb4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource">
+      <UniqueIdentifier>{c0347c5c-718e-4dc3-83e5-c9c64b81e9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\Bone">
+      <UniqueIdentifier>{cf12e53a-0cc9-4fa5-962b-8a6df1446001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\Material">
+      <UniqueIdentifier>{a3b5b1f9-6d78-4e3a-a742-57c3af9d3680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\Mesh">
+      <UniqueIdentifier>{d4ea2935-2d6b-449d-9076-e4749f1b7219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\ModelResource">
+      <UniqueIdentifier>{461c3517-1d05-4d6a-98d9-ec9ed68e4267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\Shader">
+      <UniqueIdentifier>{320a8f09-7a36-491d-84f8-369cd2bc1897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\Texture">
+      <UniqueIdentifier>{5bdab84e-23ad-4d77-9044-b5be14235027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Instance">
+      <UniqueIdentifier>{1a674ad4-67e1-4dbf-bd88-dc87b7dd2c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Model">
+      <UniqueIdentifier>{4d024dc3-2c9d-44a4-94fe-0cf44c19ed4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Node">
+      <UniqueIdentifier>{d225caa4-c8f2-4528-b9d3-67a8d4358584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\D3DRendererManager\FontManager">
+      <UniqueIdentifier>{5b46e2da-cd75-4492-b855-e74ffbcfff42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\D3DRendererManager\TextRenderer">
+      <UniqueIdentifier>{23ba3c82-46e0-4b97-9099-c7938121359b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\ParticleShader">
+      <UniqueIdentifier>{e8b0028e-804e-4f19-9d99-e4ab9b398c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. DebugDraw">
+      <UniqueIdentifier>{0c150634-4151-4905-ba41-4859531cd8c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. ParticleShader">
+      <UniqueIdentifier>{fe496552-1d49-474c-be0f-5549024b2488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resource\Shader\SkeletonResource">
+      <UniqueIdentifier>{f4c4f2f7-3483-4df1-ae6a-fe8de61e6b09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>00. pch</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>00. pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>00. pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>02. Resource\Bone</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>02. Resource\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>01. Manager\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>02. Resource\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelResource.h">
+      <Filter>02. Resource\ModelResource</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonResource.h">
+      <Filter>02. Resource\Shader\SkeletonResource</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>01. Manager\D3DRendererManager\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="PipeLine.h">
+      <Filter>01. Manager\D3DRendererManager\PipeLine</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>02. Resource\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDraw.h">
+      <Filter>97. DebugDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>02. Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalMeshInstance.h">
+      <Filter>03. Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMeshInstance.h">
+      <Filter>03. Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="UIInstance.h">
+      <Filter>03. Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalMeshModel.h">
+      <Filter>04. Model</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMeshModel.h">
+      <Filter>04. Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeAnimation.h">
+      <Filter>05. Node</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMesh.h">
+      <Filter>02. Resource\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTransform.h" />
+    <ClInclude Include="FontManager.h">
+      <Filter>01. Manager\D3DRendererManager\FontManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>01. Manager\D3DRendererManager\TextRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderManager.h">
+      <Filter>01. Manager\D3DRendererManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleShader.h">
+      <Filter>02. Resource\ParticleShader</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>03. Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvironmentModel.h">
+      <Filter>04. Model</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLightInstance.h">
+      <Filter>03. Instance</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>00. pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>00. pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>02. Resource\Bone</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>02. Resource\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>02. Resource\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>01. Manager\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelResource.cpp">
+      <Filter>02. Resource\ModelResource</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletonResource.cpp">
+      <Filter>02. Resource\Shader\SkeletonResource</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>01. Manager\D3DRendererManager\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="PipeLine.cpp">
+      <Filter>01. Manager\D3DRendererManager\PipeLine</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderManager.cpp">
+      <Filter>01. Manager\D3DRendererManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>02. Resource\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDraw.cpp">
+      <Filter>97. DebugDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>02. Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalMeshInstance.cpp">
+      <Filter>03. Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMeshInstance.cpp">
+      <Filter>03. Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="UIInstance.cpp">
+      <Filter>03. Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalMeshModel.cpp">
+      <Filter>04. Model</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMeshModel.cpp">
+      <Filter>04. Model</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeAnimation.cpp">
+      <Filter>05. Node</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMesh.cpp">
+      <Filter>02. Resource\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTransform.cpp" />
+    <ClCompile Include="FontManager.cpp">
+      <Filter>01. Manager\D3DRendererManager\FontManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>01. Manager\D3DRendererManager\TextRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleShader.cpp">
+      <Filter>02. Resource\ParticleShader</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>03. Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvironmentModel.cpp">
+      <Filter>04. Model</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLightInstance.cpp">
+      <Filter>03. Instance</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Shader\BasicPixelShader.hlsl">
+      <Filter>99. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\BasicVertexShader.hlsl">
+      <Filter>99. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\PBR_PixelShader.hlsl">
+      <Filter>99. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\UIVertexShader.hlsl">
+      <Filter>99. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\SkeletalMeshShadowShader.hlsl">
+      <Filter>99. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\StaticMeshShadowShader.hlsl">
+      <Filter>99. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\PS_Environment.hlsl">
+      <Filter>99. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\VS_Environment.hlsl">
+      <Filter>99. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\Fire.hlsl">
+      <Filter>98. ParticleShader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\UIPixelShader.hlsl">
+      <Filter>99. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\UIMeshPixelShader.hlsl">
+      <Filter>99. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\ShockStar.hlsl">
+      <Filter>98. ParticleShader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\Smoke.hlsl">
+      <Filter>98. ParticleShader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\Sparkle.hlsl">
+      <Filter>98. ParticleShader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\SkeletalOutLine_Depth_VS.hlsl">
+      <Filter>99. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\SkeletalOverOutLine_Depth_VS.hlsl">
+      <Filter>99. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\StaticOutLine_Depth_VS.hlsl">
+      <Filter>99. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\StaticOverOutLine_Depth_VS.hlsl">
+      <Filter>99. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\FinalRender_Shader.hlsl">
+      <Filter>99. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\UIMesh_Shader.hlsl">
+      <Filter>99. Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Shader\Shared.hlsli">
+      <Filter>99. Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>

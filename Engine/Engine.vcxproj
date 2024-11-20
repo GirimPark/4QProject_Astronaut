@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{011c0696-0d45-424c-8a4b-b83f615e3959}</ProjectGuid>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\Program Files (x86)\Visual Leak Detector\include;..\Inc\yaml\include;..\Inc\fmod\include;..\Inc\physX\include</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);C:\Program Files (x86)\Visual Leak Detector\lib\Win64;..\Lib\yaml;..\Lib\fmod;..\Lib\physX\deb</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);;..\Inc\yaml\include;..\Inc\fmod\include;..\Inc\physX\include</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);..\Lib\yaml;..\Lib\fmod;..\Lib\physX\rel</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>C:\VisualStudioSpace\4Q_D3DExamples\DirectXTK</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod_vc.lib;fmodL_vc.lib;LowLevel_static_64.lib;LowLevelAABB_static_64.lib;LowLevelDynamics_static_64.lib;PhysX_64.lib;PhysXCharacterKinematic_static_64.lib;PhysXCommon_64.lib;PhysXCooking_64.lib;PhysXExtensions_static_64.lib;PhysXFoundation_64.lib;PhysXPvdSDK_static_64.lib;PhysXTask_static_64.lib;PhysXVehicle_static_64.lib;PhysXVehicle2_static_64.lib;PVDRuntime_64.lib;SceneQuery_static_64.lib;SimulationController_static_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>fmod_vc.lib;fmodL_vc.lib;LowLevel_static_64.lib;LowLevelAABB_static_64.lib;LowLevelDynamics_static_64.lib;PhysX_64.lib;PhysXCharacterKinematic_static_64.lib;PhysXCommon_64.lib;PhysXCooking_64.lib;PhysXExtensions_static_64.lib;PhysXFoundation_64.lib;PhysXPvdSDK_static_64.lib;PhysXTask_static_64.lib;PhysXVehicle_static_64.lib;PhysXVehicle2_static_64.lib;PVDRuntime_64.lib;SceneQuery_static_64.lib;SimulationController_static_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CameraComponent.h" />
+    <ClInclude Include="CircularQueue.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="CollisionEventCallback.h" />
+    <ClInclude Include="CollisionFilter.h" />
+    <ClInclude Include="CollisionHandler.h" />
+    <ClInclude Include="CommonApp.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="ControllerComponent.h" />
+    <ClInclude Include="define.h" />
+    <ClInclude Include="EnvironmentComponent.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="EventListener.h" />
+    <ClInclude Include="EventManager.h" />
+    <ClInclude Include="FPSCameraController.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="FSM.h" />
+    <ClInclude Include="FSMComponent.h" />
+    <ClInclude Include="FSMState.h" />
+    <ClInclude Include="FSMTransition.h" />
+    <ClInclude Include="MaterialManagerComponent.h" />
+    <ClInclude Include="ParticleComponent.h" />
+    <ClInclude Include="PhysicsManager.h" />
+    <ClInclude Include="RigidBodyComponent.h" />
+    <ClInclude Include="RigidDynamicComponent.h" />
+    <ClInclude Include="RigidStaticComponent.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="UIClickFunctor.h" />
+    <ClInclude Include="UIClickPopUpFunctor.h" />
+    <ClInclude Include="UIFunctorFactory.h" />
+    <ClInclude Include="GameObject.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="NetworkManager.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="pch.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h" />
+    <ClInclude Include="SceneComponent.h" />
+    <ClInclude Include="Server.h" />
+    <ClInclude Include="Session.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="SkeletalMeshComponent.h" />
+    <ClInclude Include="StaticMeshComponent.h" />
+    <ClInclude Include="TimeManager.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="UIButton.h" />
+    <ClInclude Include="UIFunctor.h" />
+    <ClInclude Include="UIFunctorPopUp.h" />
+    <ClInclude Include="UIHoverPopUpFunctor.h" />
+    <ClInclude Include="UIManager.h" />
+    <ClInclude Include="UIHoverFunctor.h" />
+    <ClInclude Include="UIMeshComponent.h" />
+    <ClInclude Include="UIObject.h" />
+    <ClInclude Include="UIPanel.h" />
+    <ClInclude Include="UITextInputBox.h" />
+    <ClInclude Include="UITriggerPopUp.h" />
+    <ClInclude Include="UIText.h" />
+    <ClInclude Include="World.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="WorldManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CameraComponent.cpp" />
+    <ClCompile Include="CircularQueue.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="CollisionEventCallback.cpp" />
+    <ClCompile Include="CollisionFilter.cpp" />
+    <ClCompile Include="CollisionHandler.cpp" />
+    <ClCompile Include="CommonApp.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="ControllerComponent.cpp" />
+    <ClCompile Include="EnvironmentComponent.cpp" />
+    <ClCompile Include="EventManager.cpp" />
+    <ClCompile Include="FPSCameraController.cpp" />
+    <ClCompile Include="FSM.cpp" />
+    <ClCompile Include="FSMComponent.cpp" />
+    <ClCompile Include="FSMState.cpp" />
+    <ClCompile Include="FSMTransition.cpp" />
+    <ClCompile Include="MaterialManagerComponent.cpp" />
+    <ClCompile Include="ParticleComponent.cpp" />
+    <ClCompile Include="PhysicsManager.cpp" />
+    <ClCompile Include="RigidBodyComponent.cpp" />
+    <ClCompile Include="RigidDynamicComponent.cpp" />
+    <ClCompile Include="RigidStaticComponent.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="UIButton.cpp" />
+    <ClCompile Include="UIClickFunctor.cpp" />
+    <ClCompile Include="UIClickPopUpFunctor.cpp" />
+    <ClCompile Include="UIFunctorFactory.cpp" />
+    <ClCompile Include="GameObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="NetworkManager.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp" />
+    <ClCompile Include="SceneComponent.cpp" />
+    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="Session.cpp" />
+    <ClCompile Include="Singleton.cpp" />
+    <ClCompile Include="SkeletalMeshComponent.cpp" />
+    <ClCompile Include="StaticMeshComponent.cpp" />
+    <ClCompile Include="TimeManager.cpp" />
+    <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="UIFunctor.cpp" />
+    <ClCompile Include="UIFunctorPopUp.cpp" />
+    <ClCompile Include="UIHoverPopUpFunctor.cpp" />
+    <ClCompile Include="UIManager.cpp" />
+    <ClCompile Include="UIHoverFunctor.cpp" />
+    <ClCompile Include="UIMeshComponent.cpp" />
+    <ClCompile Include="UIObject.cpp" />
+    <ClCompile Include="UIPanel.cpp" />
+    <ClCompile Include="UITextInputBox.cpp" />
+    <ClCompile Include="UITriggerPopUp.cpp" />
+    <ClCompile Include="UIText.cpp" />
+    <ClCompile Include="World.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="WorldManager.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
